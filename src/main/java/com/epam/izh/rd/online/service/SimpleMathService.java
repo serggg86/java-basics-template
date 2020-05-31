@@ -189,7 +189,6 @@ public class SimpleMathService implements MathService {
             values[i] = values[values.length-i-1];
             values[values.length-i-1] = temp;
         }
-
         return values;
     }
 }
